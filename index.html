@@ -1,19 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title id="titleWeb"></title>
-      <!-- Required meta tags -->
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-      <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="css/style.css" />
       <link rel="stylesheet" href="css/spinload.css" />
-      <link
-         rel="stylesheet"
-         type="text/css"
-         href="https://fonts.googleapis.com/css?family=Pacifico"
-      />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico" />
       <link
          rel="stylesheet"
          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -21,7 +14,6 @@
          crossorigin="anonymous"
       />
    </head>
-
    <body onload="loadSound()">
       <div id="customAlert"></div>
       <div class="wrapper">
@@ -41,8 +33,8 @@
                <h2 id="title"></h2>
                <h4 id="desc"></h4>
             </header>
-            <button id="yes" type="button" class="btn btn-danger btn-lg"></button>
-            <button id="no" type="button" class="btn btn-info btn-lg"></button>
+            <button id="yes" type="button" class="btn btn-danger btn-lg">Yes</button>
+            <button id="no" type="button" class="btn btn-info btn-lg">No</button>
          </div>
       </div>
       <script
@@ -63,13 +55,11 @@
       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
       <script src="./config.js"></script>
       <script src="./js/main.js"></script>
-
       <script>
          function loadSound() {
             var audio = new Audio('sound/Sukidesu.mp3');
             audio.play();
          }
-         loadSound();
       </script>
    </body>
 </html>

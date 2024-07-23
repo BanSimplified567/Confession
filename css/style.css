@@ -133,3 +133,42 @@ header h4 {
 .swal2-backdrop-show {
     background-size: 200px 100px !important;
 }
+
+#nameInputContainer {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(43, 41, 41);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 9999;
+}
+
+#nameInputContainer h2 {
+    margin-bottom: 15px;
+}
+
+#nameInputContainer input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#nameInputContainer button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#nameInputContainer button:hover {
+    background-color: #0056b3;
+}

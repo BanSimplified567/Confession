@@ -107,29 +107,15 @@ function textGenerate() {
 // Function to check input and trigger custom alert if conditions are met
 function checkInputAndShowPopup(input) {
    const name = input.toLowerCase();
-   let message = "You're the one that I like!";
+   let message = `You're the one that I like! ${name}`;
 
-   if (
-      name.startsWith('c') ||
-      name == 'cyramae labis' ||
-      name == 'cy cy' ||
-      name == 'cycy' ||
-      name == 'cycylabis'
-   ) {
-      message = "You're the one that I like, Cyramae Labis!";
-   } else if (
-      name.startsWith('s') ||
-      name === 'shanley remolado' ||
-      name == 'shanleyremolado' ||
-      name == 'shanley' ||
-      name == 'shan' ||
-      name == 'remolado' ||
-      name == 'shizu'
-   ) {
+   if (name == 'cyramie labis') {
+      message = "You're the one that I like, Cyramie Labis!";
+   } else if (name == 'shanley remolado') {
       message = "You're the one that I like, Shanley Remolado!";
-   } else if (name.startsWith('j') || name === 'jade m lee') {
+   } else if (name.startsWith('jade') || name === 'jade m lee') {
       message = "You're the one that I like, Jade M Lee!";
-   } else if (name === 'vanese lim') {
+   } else if (name.startsWith('vanese') || name === 'vanese lim') {
       message = "You're the one that I like, Vanese Lim!";
    }
 
