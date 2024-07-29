@@ -62,7 +62,7 @@ button {
     /* height: 100vh; */
     z-index: 0;
     background-repeat: no-repeat;
-    background-image: url(../img/sukidesu.png);
+    background: #0e0e0e;
     background-size: cover;
     background-position: 50%;
     -webkit-filter: blur(4px);
@@ -81,18 +81,19 @@ button {
     border-radius: 15px !important;
 }
 
+
 header h2 {
     font-family: var(--font-title);
     font-size: 3rem;
     text-align: center;
     margin-bottom: 30px;
-    color: cyan;
+    color: #ffffffef;
 }
 
 header h4 {
     font-family: var(--font-semi);
     text-align: center;
-    color: chartreuse;
+    color: #ffffffef;
 }
 
 @media only screen and (max-width: 500px) {
