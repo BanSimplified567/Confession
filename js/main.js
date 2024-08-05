@@ -10,9 +10,6 @@ $(document).ready(function () {
    }, 600);
 });
 
-let audio = new Audio('sound/Sukidesu.mp3');
-audio.play();
-
 function init() {
    document.getElementById('titleWeb').innerHTML = CONFIG.titleWeb;
    $('#title').text(CONFIG.title);
