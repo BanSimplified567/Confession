@@ -106,16 +106,6 @@ function checkInputAndShowPopup(input) {
    const name = input.toLowerCase();
    let message = `You're the one that I like! ${name}`;
 
-   if (name == 'cyramie labis') {
-      message = "You're the one that I like, Cyramie Labis!";
-   } else if (name == 'shanley remolado') {
-      message = "You're the one that I like, Shanley Remolado!";
-   } else if (name.startsWith('jade') || name === 'jade m lee') {
-      message = "You're the one that I like, Jade M Lee!";
-   } else if (name.startsWith('vanese') || name === 'vanese lim') {
-      message = "You're the one that I like, Vanese Lim!";
-   }
-
    $('#customAlert').text(message).fadeIn();
 
    setTimeout(() => {
