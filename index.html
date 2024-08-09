@@ -37,7 +37,11 @@
             <button id="no" type="button" class="btn btn-info btn-lg">No</button>
          </div>
       </div>
-      <audio id="birthdayAudio" src="./sound/Sukidesu.mp3" preload="auto"></audio>
+      <audio id="birthdayAudio" src="sound/Sukidesu.mp3" preload="auto"></audio>
+      <script>
+         const audio = document.getElementById('birthdayAudio');
+         audio.play();
+      </script>
 
       <script
          src="https://code.jquery.com/jquery-3.4.1.js"
