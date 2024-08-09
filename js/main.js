@@ -41,6 +41,9 @@ function firstQuestion() {
    }).then(function () {
       $('.content').show(200);
    });
+   // Play the audio
+   const audio = document.getElementById('birthdayAudio');
+   audio.play();
 }
 
 // switch button position
